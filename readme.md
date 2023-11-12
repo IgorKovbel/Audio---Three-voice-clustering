@@ -1,18 +1,14 @@
 # About The Project
 
 
-## Task 4 - Audio - Three voice clustering
+## Audio - Three voice clustering
 
-In this task, you have a folder containing 9 audio files, each associated with one of three individuals. The objective is to write a script that automatically clusters these audio files based on their corresponding voices.
+This project solves the following problem: there are 9 audio files, each associated with one of three people. I will write a script that will automatically cluster these audio files into clusters according to their respective voices.
 
 #### Deliverable:
 * Working Code: Create a functional Python script that can be executed with the "--folder_path" argument followed by the path to the target folder. The script should then output the result clusters in a JSON format. The JSON should contain a dictionary where the keys represent voice IDs, and the values are lists of filenames of audio files belonging to each cluster. For instance:
 { "1": ["1.wav", "2.wav", "3.wav"], "2": ["4.wav", "5.wav", "6.wav"], "3": ["7.wav", "8.wav", "9.wav"] }
-
-Please ensure that you do not modify the file names, and the resulting clusters maintain the same number of files as in the input folder. 
-Alongside the main code, include a "requirements.txt" file that lists all the external libraries used in your code and their respective versions. 
-* Report: Write a report in English that explains the underlying principles of your solution.
-* JSON File with Results: Provide a JSON file containing the results of your clustering process for the given folder with audio files.
+* JSON File with Results: JSON file containing the results of your clustering process for the given folder with audio files.
 
 ## Navigate
 
